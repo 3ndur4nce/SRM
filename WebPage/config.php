@@ -1,8 +1,8 @@
 <?php
 
-define('DB_SERVER', '192.168.2.38');
-define('DB_USERNAME', 'srm');
-define('DB_PASSWORD', 'IfOggEckho1');
+define('DB_SERVER', 'host');
+define('DB_USERNAME', 'user');
+define('DB_PASSWORD', 'pass');
 define('DB_NAME', 'srm');
 
 
