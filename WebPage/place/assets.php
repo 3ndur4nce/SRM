@@ -13,12 +13,13 @@
 <?php
 
 if(isset($asset)){
-    echo "<div class='launchcollumn'>";
-    echo "<a>Informations</a>";
     $getinfqry = mysqli_query($link, "SELECT * from assets where id = $asset");
     while($row = mysqli_fetch_array($getinfqry)){
         $assetdesc = $row['description'];
+        $assetname = $row['name'];
     }
+    echo "<div class='launchcollumn'>";
+    echo "<a>$assetname</a>";
     echo "<a class='collumnbutton'>$assetdesc</a>";
     echo "<a href='?a=assets&asset=$asset&do=scripts' class='collumnbutton'>Exécution Scripts</a>";
     echo "</div>";
