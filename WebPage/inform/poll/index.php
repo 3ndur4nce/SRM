@@ -2,9 +2,6 @@
 
 require_once "../../config.php";
 
-if(isset($_GET['do'])){
-    $do = $_GET['do'];
-}
 if(isset($_GET['hostname'])){
     $hostname = $_GET['hostname'];
 }
