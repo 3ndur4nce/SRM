@@ -4,10 +4,23 @@ $currentusr = $_SESSION["username"];
 $isadminqry = mysqli_query($link, "select * from users where username='".$currentusr."'");
 while($row = mysqli_fetch_array($isadminqry)){
   $admin = $row['admin'];
+  $userid = $row['id'];
 }
 
 if(isset($_GET['a'])){
     $place = $_GET['a'];
+}
+if(isset($_GET['asset'])){
+    $asset = $_GET['asset'];
+}
+if(isset($_GET['do'])){
+    $do = $_GET['do'];
+}
+if(isset($_GET['sched'])){
+    $sched = $_GET['sched'];
+}
+if(isset($_GET['newscriptid'])){
+    $newscriptid = $_GET['newscriptid'];
 }
 if(isset($_GET['req'])){
     $req = trim($_GET['req']);
@@ -124,17 +137,6 @@ if(isset($repdn)){
         mysqli_stmt_bind_param($stmt, "i", $rep);
         if(mysqli_stmt_execute($stmt)){
             header("location: ?a=launch&acc=rapp&req=$req");
-            exit();
-        }
-    }
-}
-
-if($rep == "done"){
-    $finreqqry = "UPDATE request SET approved = 3 WHERE id = ?";
-    if($stmt = mysqli_prepare($link, $finreqqry)){
-        mysqli_stmt_bind_param($stmt, "i", $req);
-        if(mysqli_stmt_execute($stmt)){
-            header("location: ?a=launch");
             exit();
         }
     }

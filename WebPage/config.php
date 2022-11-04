@@ -1,9 +1,9 @@
 <?php
 
-define('DB_SERVER', 'host');
+define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'user');
 define('DB_PASSWORD', 'pass');
-define('DB_NAME', 'srm');
+define('DB_NAME', 'db');
 
 
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

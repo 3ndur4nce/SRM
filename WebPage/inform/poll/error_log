@@ -1,0 +1,85 @@
+[04-Nov-2022 19:18:14 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:15
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(15): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 15
+[04-Nov-2022 19:18:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:15
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(15): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 15
+[04-Nov-2022 19:18:56 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:23
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(23): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 23
+[04-Nov-2022 19:19:16 UTC] PHP Warning:  Undefined variable $halfdayago in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 30
+[04-Nov-2022 19:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sub() on null in /home/endurcom/rmm.endur4.com/inform/poll/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 30
+[04-Nov-2022 19:19:48 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 32
+[04-Nov-2022 19:20:37 UTC] PHP Fatal error:  Uncaught TypeError: strlen(): Argument #1 ($str) must be of type string, DateTime given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 28
+[04-Nov-2022 19:21:33 UTC] PHP Fatal error:  Uncaught TypeError: strlen(): Argument #1 ($str) must be of type string, DateTime given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 29
+[04-Nov-2022 19:21:59 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 29
+[04-Nov-2022 19:22:10 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 29
+[04-Nov-2022 19:22:56 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 33
+[04-Nov-2022 19:26:04 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 34
+[04-Nov-2022 19:26:37 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 34
+[04-Nov-2022 19:26:50 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 33
+[04-Nov-2022 19:27:09 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 33
+[04-Nov-2022 19:27:32 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 33
+[04-Nov-2022 19:28:52 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /home/endurcom/rmm.endur4.com/inform/poll/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 34
+[04-Nov-2022 19:32:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:40
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(40): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 40
+[04-Nov-2022 19:34:22 UTC] PHP Warning:  Undefined variable $scriptid in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 38
+[04-Nov-2022 19:35:03 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 38
+[04-Nov-2022 19:42:21 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:35
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(35): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 35
+[04-Nov-2022 19:43:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:35
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(35): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 35
+[04-Nov-2022 19:51:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/endurcom/rmm.endur4.com/inform/poll/index.php:35
+Stack trace:
+#0 /home/endurcom/rmm.endur4.com/inform/poll/index.php(35): mysqli_fetch_array()
+#1 {main}
+  thrown in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 35
+[04-Nov-2022 20:00:30 UTC] PHP Warning:  Undefined array key "schedid" in /home/endurcom/rmm.endur4.com/inform/poll/index.php on line 37
