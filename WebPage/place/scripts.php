@@ -44,8 +44,9 @@ echo "</div>";
                 <option value='$powershell'>PowerShell</option>
                 <option value='$bash'>BASH</option>
             </select><br>
-            <textarea type='longtext' name='script' class='input-script' placeholder='Enter Script Here'>$scriptdata</textarea>
+            <textarea type='longtext' name='script' class='input-script' placeholder='Enter Script Here'>$scriptdata</textarea><br>
             <input type='submit' class='button' value='Save'>
+            <a href='?a=delscript&script=$script' class='button' style='background-color:red; color:black;'>Delete</a>
             </form>
         ";
     }
