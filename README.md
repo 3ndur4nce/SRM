@@ -7,4 +7,4 @@ Simple Remote Management.
 - Runs scripts on remote machines.
 - Keeps inventory of controlled assets.
 
-Actually only a Windows client exists, with Linux well on the way.
+ATM only a Windows client exists, with Linux well on the way.
