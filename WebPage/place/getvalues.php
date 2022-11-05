@@ -22,6 +22,9 @@ if(isset($_GET['sched'])){
 if(isset($_GET['newscriptid'])){
     $newscriptid = $_GET['newscriptid'];
 }
+if(isset($_GET['script'])){
+    $script = $_GET['script'];
+}
 if(isset($_GET['req'])){
     $req = trim($_GET['req']);
 }

@@ -279,3 +279,19 @@
     background-color:#0e1824;
     color:white;
 }
+.input-script{
+    margin-top:10px;
+    width:500px;
+    height:500px;
+    border: 3px black solid;
+    border-radius: .5rem;
+    overflow-y: auto;
+}
+.editcollumn{
+    display:block;
+    float:left;
+    width:50%;
+    border-right: 10px solid white;
+    height:90%;
+    overflow-y:auto;
+}
