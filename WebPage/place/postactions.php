@@ -15,12 +15,12 @@ if($place == "assets" && $sched == "save"){
     }
 }elseif($place == "scripts" && $do == "scriptedit"){
     if(isset($script)){
-        $shell = trim($_POST["shell"]);
+        $theshell = trim($_POST["shell"]);
         $data = trim($_POST["script"]);
         $scriptname = trim($_POST["scriptname"]);
         $editscript = "UPDATE scripts set name = ?, shell = ?, data = ? where id = $script";
         if($stmt = mysqli_prepare($link, $editscript)){
-            mysqli_stmt_bind_param($stmt, "sss", $scriptname, $shell, $data);
+            mysqli_stmt_bind_param($stmt, "sss", $scriptname, $theshell, $data);
             if(mysqli_stmt_execute($stmt)){
                 header("location: ?a=scripts&script=$script");
                 exit;
@@ -31,12 +31,12 @@ if($place == "assets" && $sched == "save"){
     }
 }elseif($place == "scripts" && $do == "newscript"){
     if(isset($script)){
-        $shell = trim($_POST["shell"]);
+        $theshell = trim($_POST["shell"]);
         $data = trim($_POST["script"]);
         $scriptname = trim($_POST["scriptname"]);
         $addscript = "INSERT into scripts (name, shell, data) values (?, ?, ?)";
         if($stmt = mysqli_prepare($link, $addscript)){
-            mysqli_stmt_bind_param($stmt, "sss", $scriptname, $shell, $data);
+            mysqli_stmt_bind_param($stmt, "sss", $scriptname, $theshell, $data);
             if(mysqli_stmt_execute($stmt)){
                 header("location: ?a=scripts&script=$script");
                 exit;

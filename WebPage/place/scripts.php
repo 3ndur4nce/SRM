@@ -30,6 +30,10 @@ echo "</div>";
                 $powershell = "powershell";
                 $cmd = "cmd";
                 $bash = "bash' selected='selected";
+            }else{
+                $powershell = "powershell";
+                $cmd = "cmd";
+                $bash = "bash";
             }
         }else{
             $do = "newscript";
