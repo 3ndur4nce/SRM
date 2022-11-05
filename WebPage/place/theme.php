@@ -16,6 +16,8 @@
             <a href="?" class="leftmenumenu">Dashboard</a><br>
             <a href="?a=assets" class="leftmenumenu">Assets</a><br>
             <a href="?a=scripts" class="leftmenumenu">Scripts</a><br>
+            <a href="?a=monitors" class="leftmenumenu">Monitors</a><br>
+            <a href="?a=sequences" class="leftmenumenu">Sequences</a><br>
             <hr>
             <?php
 
@@ -27,9 +29,6 @@
 
             ?>
         </leftmenu>
-        <info class="bottomleftbox">
-             <a href="?a=bug">Problèmes</a>
-        </info>
         <bodycontent class="contentbox">
             <?php
             
